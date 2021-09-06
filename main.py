@@ -42,7 +42,7 @@ try:
         clear()
         print(f"{Fore.RESET}{Fore.GREEN}Connected!".center(width))
 
-    client.run("ODQxMDE1MDk4MTkzMjE1NTM4.YJgmWA.0NWJs8kd243AItqkauva06mOBIU")
+    client.run("TOKEN")
 except Exception as error:
     clear()
     print(f"{Fore.RESET}{Fore.LIGHTCYAN_EX}[{Fore.RESET}{Fore.RED}ERROR{Fore.RESET}{Fore.LIGHTCYAN_EX}] {Fore.RESET}{Fore.RED}{error} ")
